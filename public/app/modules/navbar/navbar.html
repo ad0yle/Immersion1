@@ -1,0 +1,27 @@
+<header class="header">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" ui-sref="home"><img id="brand" alt="Brand" src="img/ge-favicon.svg"><span id="nav_title">Power ITLP</span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+                    <ul class="nav navbar-nav">
+                        <!-- Here is how you do a link with UI Router -->
+                        <li>
+                            <a ui-sref="home">Raw Data</a>
+                        </li>
+                        <li><a ui-sref="analysis">Analysis</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>

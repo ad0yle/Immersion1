@@ -1,0 +1,854 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    padding: 0;
+    font-family: "GE Sans", "ge-sans", "GE Inspira", "ge-inspira", Helvetica, Arial, sans-serif;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Custom page header */
+
+.header {
+    margin-bottom: 10px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+
+/* Custom page footer */
+
+footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1100px;
+    }
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+#home_jumbotron {
+    position: relative;
+    background: #000 url("../img/itlp.jpeg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    color: black;
+    text-align:left;
+    border:1px solid lightgray;
+}
+
+#onboarding_jumbotron {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#trevose_jumbotron {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url('../img/trevose.jpg') no-repeat right;
+}
+
+#coming_soon_jumbotron {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+#SPARK_jumbotron {
+    position: relative;
+    background-color: #337ab7;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*background-image: url("../images/sparkHeader.jpg");
+    background-size: cover;
+    height:320px;
+    width:1070px;*/
+    height:170px;
+    color:#fff;
+}
+
+
+.committees {
+    display: inline;
+}
+
+.thumbnail .caption {
+    text-align: center;
+}
+
+.caption {
+}
+
+.book {
+    min-height: 100px;
+}
+
+.bookCover {
+    min-height:378px !important;
+}
+
+.card {
+    min-height: 223px;
+    text-align: left !important;
+}
+
+#brand {
+    width: 25px;
+}
+
+.navbar-brand {
+    padding-top: 12px;
+}
+
+#nav_title {
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.navbar-brand > img {
+    display: inline;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.lead {
+    font-size: 14px !important;
+}
+
+.home_lead {
+    font-size: 14px !important;
+    width:400px;
+}
+
+.details {
+    position: absolute;
+    bottom: 40px;
+}
+
+.page-header {
+    border: 0px;
+}
+
+.tabs {
+    border: none;
+    position: relative;
+    /*background: #000 url("../images/2014class.JPG") center center;*/
+    min-height: 200px;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #337ab7;
+    color: #fff;
+    font-family: "GE Sans", "ge-sans", "GE Inspira", "ge-inspira", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#border {
+    border: 1px solid black;
+}
+
+.customTabContentWidth .col-sm-9 {
+    width:  100%;
+}
+
+.thumbnail {
+    height: 425px;
+}
+
+.onboarding_card {
+    height:250px !important;
+}
+
+.site_card {
+    height:260px !important;
+}
+
+.sn_card{
+   height:1400px !important;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    opacity: 0.75;
+}
+
+.jumbotron tabs ng-scope {
+    height:50px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #337ab7;
+    color:#fff !important;
+    font-size:16px !important;
+}
+
+#team {
+    background-color: #337ab7;
+    color:#fff !important;
+    font-size:16px !important;
+}
+
+#contacts {
+    background-color: #337ab7;
+    color:#fff !important;
+    font-size:16px !important;
+    width: 1070px;
+}
+
+.business {
+    font-size: 12px !important;
+}
+
+.panel-default {
+    margin-top:30px;
+}
+
+.list-group {
+    margin-top: 30px;
+    width: 250px;
+}
+
+#home-page-card {
+    width:310px !important;
+    margin-top:0px !important;
+}
+
+#contact {
+    height:170px;
+    border:none !important;
+}
+
+.photo {
+    height:170px !important;
+}
+<<<<<<< HEAD
+=======
+
+#map {
+    width:1070px;
+}
+
+.normal_link {
+    color:#fff;
+    text-decoration:underline;
+}
+
+.normal_link:hover {
+    color:#fff;
+    text-decoration:underline;
+}
+
+#second_row {
+    margin-top:30px;
+}
+
+.teams {
+    min-height:370px;
+}
+.budget_card {
+    height:250px;
+}
+
+.spotlight_photo {
+    width:300px;
+    text-align:center;
+}
+.spotlight_photo_smaller {
+    width:100px;
+    max-height:130px;
+    text-align:center;
+    margin-top:10px;
+}
+.spotlight_text{
+    font-size:13px;
+}
+.full_text {
+    margin-right:20px;
+    margin-top:30px;
+}
+.book_rec {
+    margin-top:20px;
+    height:700px;
+}
+
+.name {
+    font-size:16px;
+}
+
+.learnMore {
+    width:220px !important;
+}
+
+.dic_headers {
+    height: 75px;
+    padding-top: 8px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+
+.alumni_headers {
+    height: 60px;
+    padding-top: 0px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin-top:30px;
+}
+
+.events {
+    height:150px;
+    padding-top:25px;
+}
+
+.nav-tabs > li > a {
+    /*border-right:0px;*/
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-bottom-color:#ddd;
+}
+
+.onboarding_tabs {
+    border-right-color:transparent !important;
+    width:190px;
+}
+
+.projectThumbnail {
+    width:200px;
+    border-radius:5px;
+    height:120px;
+}
+
+.dic_card {
+    height:300px !important;
+}
+
+/*vertical nav bar*/
+@media (min-width: 768px) {
+  .vertical > .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .vertical > .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .vertical > .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.vertical > .navbar
+{
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+}	
+
+.vertical > navbar-nav,
+.vertical > .navbar-nav > li,
+.vertical > .navbar-left,
+.vertical > .navbar-right,
+.vertical > .navbar-header
+{float:none !important;}
+
+.vertical > .navbar-right .dropdown-menu {left:0;right:auto;}
+.vertical > .navbar-collapse .vertical-navbar-nav.vertical-navbar-right:last-child {
+    margin-right: 0;
+}
+    
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color:#337ab7;
+    color:#fff;
+}
+    
+.glyphicon {
+   font-size:17px;     
+}
+    
+#budgets_modal {
+    width:900px;
+    right:150px !important;
+}
+    
+/*table css*/
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%; 
+}
+
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;         
+}
+
+.bordered tr:hover {
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;     
+}    
+    
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;    
+}
+
+.bordered th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+    background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:    -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:     -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:      -o-linear-gradient(top, #ebf3fc, #dce9f9);
+    background-image:         linear-gradient(top, #ebf3fc, #dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+    
+
+.PM {
+    background-color:#3693F8;
+    color: white;
+    
+}
+    
+.RnRL {
+    background-color: #FF9821;
+    color: white;
+    
+}
+
+    .ITLPRep{
+        
+        background-color: #8669FF;
+        color: white;
+        
+    }
+    .ITLP{
+        
+       background-color: #75D835;
+        color: white;
+        
+    }
+    .AL{
+         background-color: #005CB9;
+        color: white;
+    }
+    .HrRep{
+        background-color: #FF5C5C;
+        color: white;
+    }
+   
+#contact_form {
+    border: 1px solid #e7e7e7;
+    border-radius:10px;
+}
+    
+    /*Items on a Circle*/
+
+#container { width: 600px; height: 600px; position: relative; margin-left:-50px; margin-top:-40px;}
+#center { width: 300px; height: 280px; position: absolute; left: 150px; top: 160px; text-align:center; font-family: "GE Sans", "ge-sans", "GE Inspira", "ge-inspira", Helvetica, Arial, sans-serif; font-size:14px;}
+.field { position: absolute; border-radius: 50px; color:#fff; font-family: "GE Sans", "ge-sans", "GE Inspira", "ge-inspira", Helvetica, Arial, sans-serif; font-size: 17px; font-weight:bold;}
+#crosshair-x { width: 600px; height: 1px; position: absolute; left: 0; top: 300px; }
+#crosshair-y { width: 1px; height: 600px; position: absolute; left: 300px; top: 0; }
+
+.jumpcontent {
+   margin-top:20px;     
+}
+    
+.field {
+    width: 75px;
+    height: 75px;
+    line-height: 74px;
+    text-align: center;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.moveAni {
+    transition: left 400ms ease-out, top 400ms ease-out;
+}
+
+#centertitle {width:300px; text-align:center; position: absolute; left: 150px; top: 150px; background: #fff; text-align:center; font-family: "GE Sans", "ge-sans", "GE Inspira", "ge-inspira", Helvetica, Arial, sans-serif; font-size:25px;}
+    
+.pdc_element {
+    width:207.5px;
+    text-align:center;
+}
+    
+#jan {
+    background-color: rgb(70,173,0);
+    border:2px solid rgb(70,173,0);
+    width:150px;
+    height:35px;
+    font-size:16px; 
+}
+
+#feb {
+    background-color: rgb(227,32,51);
+    border:2px solid rgb(227,32,51);
+    width:150px;
+    height:35px;
+    font-size:16px; 
+}
+
+#mar {
+    background-color: rgb(29,95,17);
+    border:2px solid rgb(29,95,17);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#apr {
+    background-color: rgb(54,147,248);
+    border:2px solid rgb(54,147,248);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#may {
+    background-color: rgb(255,152,33);
+    border:2px solid rgb(255,152,33);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+
+#jun {
+    background-color: rgb(87,87,87);
+    border:2px solid rgb(87,87,87);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+
+#jul {
+    background-color: rgb(132,18,37);
+    border:2px solid rgb(132,18,37);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#aug {
+    background-color: rgb(117,216,53);
+    border:2px solid rgb(117,216,53);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#sept {
+    background-color: rgb(0,92,185);
+    border:2px solid rgb(0,92,185);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#oct {
+    background-color: rgb(125,185,251);
+    border:2px solid rgb(125,185,251);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+
+#nov {
+    background-color: rgb(255,192,0);
+    border:2px solid rgb(255,192,0);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+#dec {
+    background-color: rgb(0,54,110);
+    border:2px solid rgb(0,54,110);
+    width:150px;
+    height:35px;
+    font-size:16px;
+}
+    
+.whoWeAre < .nav-justified {
+    border:1px solid lightgray;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#steam_jumbotron {
+    position: relative;
+    background: #000 url("../img/steam_turbine.png") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+#ps_jumbotron {
+    position: relative;
+    background: #000 url("../img/ps.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+#nuclear_jumbotron {
+    position: relative;
+    background: #000 url("../img/nuclear_tank.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+#business_header{
+	background-color:rgba(0, 0, 0, 0.3);
+	margin-left:15%;
+	margin-right:15%;
+}
+
+#home_header{
+	background-color:rgba(0, 0, 0, 0.5);
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#gas_jumbotron {
+    position: relative;
+    background: #000 url("../img/gas_turbine.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+#water_jumbotron {
+    position: relative;
+    background: #000 url("../img/water.png") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    border: 1px solid #e7e7e7;
+}
+    
+.business_content{
+	font-size: 120%;
+}
+    
+.maps {
+    padding-left:20px;    
+}
+    
+.tab-content > .active {
+    margin-bottom:20px;
+}
+    
+#rnrtable,#opptable, #rnrtable2, #opptable2 {
+    margin-top:20px;    
+}
+    
+#leftPDC {
+    margin-left: -15px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+#rightPDC {
+    margin-right: -15px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+    
+#topOnboarding {
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+
+#bottomOnboarding {
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+    
+.short_description {
+    font-size: 13px;    
+}
+
+.imgleft {
+     border-radius:5px;   
+}
+    
+.readMore {
+    position:absolute;
+    bottom:35px;
+    left:32%;
+}
+    
+
+/*Immersion Specific*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #337ab7;
+}
+
+
+/*.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    width:240px;
+    margin-left:-15px !important;
+}*/

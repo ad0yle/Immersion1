@@ -1,5 +1,5 @@
 angular.module('itlpportal',
-    [ 'ui.router', 'itlp-navbar', 'ui.bootstrap', 'itlp-home','itlp-analysis'])
+    [ 'ui.router', 'itlp-navbar', 'ui.bootstrap', 'itlp-home','itlp-analysis', 'itlp-twist'])
 .config(function($urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
 })

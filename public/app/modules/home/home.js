@@ -14,7 +14,7 @@ angular.module('itlp-home',[])
 
         var request = $http({
             method: "get",
-            url: "http://54.172.213.210/middleware/getData.php"
+            url: "http://54.197.18.215/middleware/getData.php"
         });
 
         request.success(function (data) {
